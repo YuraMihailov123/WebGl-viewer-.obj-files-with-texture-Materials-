@@ -10,5 +10,5 @@
 * Nearest-neighbor filtering and a pure white ambient light to showcase pixel art textures.
 * All libraries taken from the [three.js](https://github.com/mrdoob/three.js/) repository.
 
-* Take ur .obj file to project and put its name into value in index.html(.mtl and .obj)
+* Take your .obj file to project and put its name into value in index.html(.mtl and .obj)
 * If you have problems send me a letter: recon.97@mail.ru
