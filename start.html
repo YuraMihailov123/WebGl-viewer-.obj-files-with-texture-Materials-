@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Creating Matrix of FlashLight</title>
+    <style>
+        body {
+            overflow: hidden;
+            margin: 0;
+            padding: 0;
+            background: hsl(0, 0%, 10%);
+            text-align: center;
+            margin-top: 200px;
+        }
+        </style>
+</head>
+<body>
+<p style="background-color: #f58231; font-size: 30px">Enter values of flashlight`s matrix</p>
+     <div style="background-color: #f58231; font-size: 30px">x:
+     <input type="placeholder" style="font-size: 30px" id="1">
+     </div>
+        <div style="background-color: #f58231; font-size: 30px">y:
+        <input type="placeholder" style="font-size: 30px" id="2">
+        </div>
+        <div style="background-color: #f58231; font-size: 30px">z:
+            <input type="placeholder" style="font-size: 30px" id="3">
+        </div>
+            </div>
+                <div style="background-color: #f58231; font-size: 30px">
+            <input type="button" style="font-size: 30px; width: 430px; height: 50px; margin-left: 30px" value="Continue" onclick="checkEmpty()">
+</div>
+<script>
+    function checkEmpty() {
+        if(document.getElementById("1").value==="" || document.getElementById("2").value===""|| document.getElementById("3").value==="")
+            alert("Placeholders must not be empty!");
+        else {
+            localStorage["x"]=document.getElementById("1").value;
+            localStorage["y"]=document.getElementById("2").value;
+            localStorage["z"]=document.getElementById("3").value;
+            window.location  ="index.html";
+        }
+    }
+</script>
+</body>
+</html>
