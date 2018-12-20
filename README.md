@@ -2,7 +2,6 @@
 
 ## Specification
 
-* This program takes 3 values(x,y,z) and upload x*y*z flashlights (matrix of flashlights). Have fun!
 
 * OBJ loader for loading a geometry format that is as old and widely supported as GIFs.
 * MTL loader for loading really simple materials.
