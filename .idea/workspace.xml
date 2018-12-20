@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f63091b9-44b9-4f70-ac55-b239ebd09e2e" name="Default Changelist" comment="" />
+    <list default="true" id="f63091b9-44b9-4f70-ac55-b239ebd09e2e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../InfifnityWar/MyLib/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InfifnityWar/MyLib/js/InitValues.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InfifnityWar/MyLib/js/audioManager.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InfifnityWar/MyLib/js/cutTiles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InfifnityWar/MyLib/js/eventListener.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InfifnityWar/MyLib/js/mapManager.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InfifnityWar/MyLib/js/physicsManager.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InfifnityWar/MyLib/jsonStorage/MyMap.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InfifnityWar/views/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/metall3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/s.mtl" beforeDir="false" afterPath="$PROJECT_DIR$/assets/s.mtl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -59,6 +74,50 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="881713538">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.26" value="1" />
+          <entry key="project.open.time.29" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.41" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.58" value="1" />
+          <entry key="project.opened" value="8" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="html" value="1" />
+          <entry key="mtl" value="10" />
+          <entry key="obj" value="9" />
+          <entry key="png" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="1" />
+          <entry key="Image" value="2" />
+          <entry key="PLAIN_TEXT" value="19" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="html" value="1301" />
+          <entry key="mtl" value="55" />
+          <entry key="obj" value="163" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="1301" />
+          <entry key="PLAIN_TEXT" value="218" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -75,62 +134,58 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
-              <caret line="110" lean-forward="true" selection-start-line="110" selection-end-line="110" />
+            <state relative-caret-position="295">
+              <caret line="148" column="11" selection-start-line="148" selection-start-column="11" selection-end-line="148" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/start.html">
+        <entry file="file://$PROJECT_DIR$/assets/1.mtl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="65" selection-start-line="24" selection-start-column="65" selection-end-line="24" selection-end-column="65" />
-              <folding>
-                <element signature="n#style#0;n#p#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="231">
+              <caret line="155" column="8" selection-start-line="155" selection-start-column="8" selection-end-line="155" selection-end-column="8" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/1.obj">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/s.mtl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="12" lean-forward="true" selection-end-line="3" />
+            <state relative-caret-position="42">
+              <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/flash.mtl">
+        <entry file="file://$PROJECT_DIR$/assets/TankNorm1.mtl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="3948">
+              <caret line="188" column="11" selection-start-line="188" selection-start-column="11" selection-end-line="188" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/flash.obj">
+        <entry file="file://$PROJECT_DIR$/assets/TankNorm1.obj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30675">
-              <caret line="2045" column="14" selection-start-line="2045" selection-start-column="14" selection-end-line="2045" selection-end-column="14" />
+            <state relative-caret-position="248367">
+              <caret line="11827" column="19" selection-start-line="11827" selection-start-column="19" selection-end-line="11827" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/OrbitControls.js">
+        <entry file="file://$PROJECT_DIR$/assets/untitled.obj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5280">
-              <caret line="352" column="94" selection-start-line="352" selection-start-column="90" selection-end-line="352" selection-end-column="94" />
+            <state relative-caret-position="33012">
+              <caret line="1572" column="14" selection-start-line="1572" selection-start-column="14" selection-end-line="1572" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -151,10 +206,13 @@
       <find>rotateLeft</find>
       <find>autoRo</find>
       <find>dollyOut</find>
-      <find>scale</find>
       <find>zoom</find>
       <find>lighting</find>
+      <find>scale</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -163,11 +221,19 @@
         <option value="$PROJECT_DIR$/assets/untitled2.mtl" />
         <option value="$PROJECT_DIR$/assets/f.mtl" />
         <option value="$PROJECT_DIR$/assets/f.obj" />
-        <option value="$PROJECT_DIR$/assets/s.mtl" />
         <option value="$PROJECT_DIR$/assets/flash.mtl" />
         <option value="$PROJECT_DIR$/assets/flash.obj" />
         <option value="$PROJECT_DIR$/OrbitControls.js" />
         <option value="$PROJECT_DIR$/start.html" />
+        <option value="$PROJECT_DIR$/assets/Tank.obj" />
+        <option value="$PROJECT_DIR$/assets/2.obj" />
+        <option value="$PROJECT_DIR$/assets/2.mtl" />
+        <option value="$PROJECT_DIR$/assets/TankTiVis.obj" />
+        <option value="$PROJECT_DIR$/assets/untitled.obj" />
+        <option value="$PROJECT_DIR$/assets/s.mtl" />
+        <option value="$PROJECT_DIR$/assets/TankNorm1.mtl" />
+        <option value="$PROJECT_DIR$/assets/TankNorm1.obj" />
+        <option value="$PROJECT_DIR$/assets/1.mtl" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
@@ -184,17 +250,17 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="y" value="30" />
     <option name="width" value="800" />
     <option name="height" value="870" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -211,6 +277,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -225,6 +292,9 @@
     <property name="settings.editor.selected.configurable" value="settings.nodejs" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/assets" />
     </key>
@@ -241,12 +311,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JavaScript Debug.index.html">
+    <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/webgl-3d-model-viewer-using-three.js-master/index.html">
+      <method v="2" />
+    </configuration>
     <configuration name="start.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/webgl-3d-model-viewer-using-three.js-master/start.html">
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.start.html" />
+      <item itemvalue="JavaScript Debug.index.html" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JavaScript Debug.start.html" />
       </list>
     </recent_temporary>
@@ -265,14 +343,23 @@
       <workItem from="1542361392161" duration="7677000" />
       <workItem from="1542369923900" duration="589000" />
       <workItem from="1542371263138" duration="48000" />
+      <workItem from="1542375716941" duration="516000" />
+      <workItem from="1542445264722" duration="614000" />
+      <workItem from="1542883473738" duration="3182000" />
+      <workItem from="1542896317768" duration="41000" />
+      <workItem from="1545237229595" duration="6472000" />
+      <workItem from="1545248012371" duration="3332000" />
+      <workItem from="1545296489426" duration="1201000" />
+      <workItem from="1545298219548" duration="2453000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8417000" />
+    <option name="totallyTimeSpent" value="26228000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="30" width="1600" height="870" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24968314" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -300,9 +387,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/assets/s.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/f.obj" />
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
@@ -318,9 +402,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/f.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/s.obj">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-15248" />
@@ -330,14 +411,80 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Detector.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/s.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/f.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/flash.mtl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/2.mtl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/flash.obj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42945">
+          <caret line="2045" column="14" selection-start-line="2045" selection-start-column="14" selection-end-line="2045" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/Tank.obj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2886471">
+          <caret line="137451" column="14" selection-start-line="137451" selection-start-column="14" selection-end-line="137451" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/2.obj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="655">
+          <caret line="360" column="14" selection-start-line="360" selection-start-column="14" selection-end-line="360" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/Tank.mtl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OrbitControls.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="391" column="17" selection-start-line="391" selection-start-column="12" selection-end-line="391" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/TankTiVis.mtl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/TankTiVis.obj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="655">
+          <caret line="814" column="14" selection-start-line="814" selection-start-column="14" selection-end-line="814" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/untitled.mtl">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <folding>
-            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
-          </folding>
+          <caret column="36" lean-forward="true" selection-start-column="36" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/start.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="65" selection-start-line="24" selection-start-column="65" selection-end-line="24" selection-end-column="65" />
         </state>
       </provider>
     </entry>
@@ -347,56 +494,48 @@
     <entry file="file://$PROJECT_DIR$/OBJLoader.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/start.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="65" selection-start-line="24" selection-start-column="65" selection-end-line="24" selection-end-column="65" />
-          <folding>
-            <element signature="n#style#0;n#p#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/assets/1.obj">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/s.mtl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="12" lean-forward="true" selection-end-line="3" />
+        <state relative-caret-position="42">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/flash.mtl">
+    <entry file="file://$PROJECT_DIR$/assets/TankNorm1.mtl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="3948">
+          <caret line="188" column="11" selection-start-line="188" selection-start-column="11" selection-end-line="188" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/flash.obj">
+    <entry file="file://$PROJECT_DIR$/assets/TankNorm1.obj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30675">
-          <caret line="2045" column="14" selection-start-line="2045" selection-start-column="14" selection-end-line="2045" selection-end-column="14" />
+        <state relative-caret-position="248367">
+          <caret line="11827" column="19" selection-start-line="11827" selection-start-column="19" selection-end-line="11827" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OrbitControls.js">
+    <entry file="file://$PROJECT_DIR$/assets/untitled.obj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5280">
-          <caret line="352" column="94" selection-start-line="352" selection-start-column="90" selection-end-line="352" selection-end-column="94" />
+        <state relative-caret-position="33012">
+          <caret line="1572" column="14" selection-start-line="1572" selection-start-column="14" selection-end-line="1572" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/1.mtl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="155" column="8" selection-start-line="155" selection-start-column="8" selection-end-line="155" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="110" lean-forward="true" selection-start-line="110" selection-end-line="110" />
+        <state relative-caret-position="295">
+          <caret line="148" column="11" selection-start-line="148" selection-start-column="11" selection-end-line="148" selection-end-column="11" />
         </state>
       </provider>
     </entry>

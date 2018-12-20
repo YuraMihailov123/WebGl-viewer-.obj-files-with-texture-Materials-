@@ -54,7 +54,7 @@
 <body>
 
     <div class="left">
-        <p>FlashLight Presentaion<p>
+        <p>Made by:<p>
         <p><a href="https://github.com/YuraMihailov123" target="_top">Square Head</a></p>
     </div>
 
@@ -70,10 +70,12 @@
         }
 
         var container;
-
+        let obj,obj1;
+        let countAnim=1;//250
+        let speedScale=0.25;
         var camera, controls, scene, renderer;
         var lighting, ambient, keyLight, fillLight, backLight;
-
+        let up=false,down=false;
         //init();
         init();
         animate();
@@ -112,38 +114,47 @@
             //ll = new THREE.PointLight()
 
             backLight2 = new THREE.PointLight(0xffffff, 1.0);
-            backLight2.position.set(0, 0, 100).normalize();
+            backLight2.position.set(-2, 5, 100).normalize();
             //backLight2.
 
+            var mtlLoader = new THREE.MTLLoader();
+            mtlLoader.setBaseUrl('assets/');
+            mtlLoader.setPath('assets/');
+            //nameMtl = countAnim+".mtl";
+            mtlLoader.load('TankNorm1.mtl', function (materials) {
+
+                materials.preload();
+
+                //materials.materials.default.map.magFilter = THREE.NearestFilter;
+                //materials.materials.default.map.minFilter = THREE.LinearFilter;
+
+                var objLoader = new THREE.OBJLoader();
+                //nameObj = countAnim+".obj";
+                objLoader.setMaterials(materials);
+                objLoader.setPath('assets/');
+                objLoader.load('TankNorm1.obj', function (object) {
+
+                    obj = object;
+                    obj.position.set(0, -1, -5);
+                    obj.scale.set(0.5, 0.5, 0.5);
+                    //obj.matrix.makeTranslation(1,0,0);
+                    scene.add(obj);
+                    //scene.
+
+                });
+                //scene.remove(obj);
+
+            });
+
             /* Model */
-            if(count>0) {
-                for (let i = 0; i < count; i++) {
-                    for (let j = 0; j < count2; j++) {
-                        for (let k = 0; k < count3; k++) {
-                            var mtlLoader = new THREE.MTLLoader();
-                            mtlLoader.setBaseUrl('assets/');
-                            mtlLoader.setPath('assets/');
-                            mtlLoader.load('s.mtl', function (materials) {
-
-                                materials.preload();
-
-                                //materials.materials.default.map.magFilter = THREE.NearestFilter;
-                                //materials.materials.default.map.minFilter = THREE.LinearFilter;
-
-                                var objLoader = new THREE.OBJLoader();
-                                objLoader.setMaterials(materials);
-                                objLoader.setPath('assets/');
-                                objLoader.load('flash.obj', function (object) {
-                                    object.position.set((j - 2) / 3, (i - 2) / 3, (k-2));
-                                    scene.add(object);
-
-                                });
-
-                            });
-                        }
-                    }
-                }
-            }
+            ambient.intensity = 0.3;
+            backLight2.intensity  =0.3;
+            keyLight.intensity=0.35;
+            fillLight.intensity=0.4;
+            scene.add(keyLight);
+            scene.add(fillLight);
+            scene.add(backLight);
+            scene.add(backLight2);
 
             /* Renderer */
 
@@ -185,12 +196,8 @@
 
                 if (lighting) {
 
-                    ambient.intensity = 0.25;
-                    backLight2.intensity  =10;
-                    scene.add(keyLight);
-                    scene.add(fillLight);
-                    scene.add(backLight);
-                    scene.add(backLight2);
+
+
 
                 } else {
 
@@ -237,9 +244,8 @@
         function setAutoRotationSpeed(auto) {
             controls.autoRotateSpeed = auto;
         }
-
         function animate() {
-            //if(count>0)
+
             requestAnimationFrame(animate);
 
             controls.update();
